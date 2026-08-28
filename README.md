@@ -29,3 +29,7 @@ npm run build
 
 ## Deploy
 Deploy the repository to Vercel. The `api/rates.js` serverless endpoint will work automatically there.
+
+
+## SEO V4
+Search-intent landing pages, calculator pages with working standalone tools, internal linking, canonical/meta/OpenGraph/Twitter tags, Breadcrumb/WebPage/WebApplication structured data, FAQ content, robots.txt and sitemap.xml are included.
