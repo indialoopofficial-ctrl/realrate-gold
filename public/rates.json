@@ -1,0 +1,11 @@
+{
+  "updatedAt": "2026-08-28T10:11:13.706Z",
+  "fetchedAt": "2026-08-28T10:11:13.707Z",
+  "source": "IBJA benchmark rates",
+  "sourceUrl": "https://www.ibjarates.com/",
+  "status": "cached",
+  "gold999Per10g": 158226,
+  "gold916Per10g": 144935,
+  "gold750Per10g": 118670,
+  "silver999PerKg": 240382
+}

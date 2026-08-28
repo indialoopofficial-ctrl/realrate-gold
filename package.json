@@ -1,0 +1,20 @@
+{
+  "name": "realrate-gold",
+  "private": true,
+  "version": "2.0.0",
+  "type": "module",
+  "scripts": {
+    "rates:update": "node scripts/update-rates.mjs",
+    "dev": "node scripts/update-rates.mjs && vite --host 0.0.0.0",
+    "build": "node scripts/update-rates.mjs && vite build",
+    "preview": "vite preview --host 0.0.0.0"
+  },
+  "dependencies": {
+    "@vitejs/plugin-react": "latest",
+    "vite": "latest",
+    "react": "latest",
+    "react-dom": "latest",
+    "lucide-react": "latest"
+  },
+  "devDependencies": {}
+}
