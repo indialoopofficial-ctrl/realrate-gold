@@ -74,7 +74,10 @@ export function goldRateForPurity(rates, purity) {
   if (!rates) return 0;
   if (purity === '24K') return rates.gold999Per10g;
   if (purity === '22K') return rates.gold916Per10g;
-  return rates.gold750Per10g;
+  if (purity === '18K') return rates.gold750Per10g;
+  const karat = Number.parseFloat(String(purity).replace(/[^0-9.]/g, ''));
+  if (!Number.isFinite(karat) || karat <= 0) return 0;
+  return rates.gold999Per10g * Math.min(karat / 24, 1);
 }
 
 export const inr = (n, digits = 0) =>
