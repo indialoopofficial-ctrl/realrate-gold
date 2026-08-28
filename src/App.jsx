@@ -155,6 +155,16 @@ export default function App() {
             <div className="glass explain-card"><span>03</span><h3>SELL Estimate</h3><p>A transparent estimate after your chosen deduction. Final payout depends on tested purity and buyer policy.</p></div>
           </div>
         </section>
+        <section id="popular-pages" className="section explain">
+          <div className="section-head"><div><span className="eyebrow">EXPLORE REALRATE</span><h2>Popular gold & silver tools</h2></div></div>
+          <div className="explain-grid">
+            <a className="glass explain-card" href="/24k-gold-rate/"><span>24K</span><h3>24K Gold Rate</h3><p>999 purity benchmark, GST buy estimate and sell estimate.</p></a>
+            <a className="glass explain-card" href="/22k-gold-rate/"><span>22K</span><h3>22K Gold Rate</h3><p>916 purity rate with clear buy and sell values.</p></a>
+            <a className="glass explain-card" href="/18k-gold-rate/"><span>18K</span><h3>18K Gold Rate</h3><p>750 purity benchmark and transparent pricing.</p></a>
+            <a className="glass explain-card" href="/silver-rate/"><span>999</span><h3>Silver Rate</h3><p>Fine silver benchmark per kilogram.</p></a>
+            <a className="glass explain-card" href="/gold-calculator/"><span>CALC</span><h3>Gold Calculator</h3><p>Calculate value by purity, weight, GST and deduction.</p></a>
+          </div>
+        </section>
       </main>
 
       <footer>
