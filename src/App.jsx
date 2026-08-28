@@ -142,9 +142,9 @@ export default function App() {
     <main id="top">
       <section className="hero section-pad">
         <div className="hero-copy">
-          <div className="pill"><Sparkles size={14}/> India-focused precious metal calculator</div>
-          <h1>Gold ka rate.<br/><em>Seedha, saaf, real.</em></h1>
-          <p>Market benchmark, GST-inclusive buying estimate, selling value aur jewellery calculations — sab ek premium dashboard me.</p>
+          <div className="pill"><Sparkles size={14}/> Aaj ka gold rate • India</div>
+          <h1>Aaj gold ka rate<br/><em>kya hai?</em></h1>
+          <p>Today 24K, 22K aur 18K gold rate, gold selling price, GST-inclusive buying estimate aur jewellery calculations — sab ek premium dashboard me.</p>
           <div className="hero-buttons"><a className="btn primary" href="#rates">Today’s rates <ChevronRight size={18}/></a><a className="btn ghost" href="#calculator"><Calculator size={17}/> Open calculators</a></div>
           <div className="hero-trust"><span><Clock3 size={15}/>{updated}</span><span><ShieldCheck size={15}/>{sourceState}</span></div>
         </div>
@@ -160,6 +160,22 @@ export default function App() {
         <Stat icon={TrendingUp} label="Gold 24K" value={rates?inr(rates.gold999Per10g):'—'} note="per 10g benchmark"/>
         <Stat icon={Gem} label="Gold 22K" value={rates?inr(rates.gold916Per10g):'—'} note="916 fineness · per 10g"/>
         <Stat icon={Scale} label="Silver 999" value={rates?inr(rates.silver999PerKg):'—'} note="per kilogram benchmark"/>
+      </section>
+
+      <section className="section-pad search-intent-section" aria-labelledby="today-gold-heading">
+        <div className="intent-copy">
+          <span className="eyebrow">AAJ KA GOLD RATE</span>
+          <h2 id="today-gold-heading">Aaj gold ka rate kya hai?</h2>
+          <p>India ke current benchmark ke hisaab se 24K, 22K aur 18K gold ka rate niche diya gaya hai. Saath me estimated <strong>gold selling price</strong> bhi dekho, taaki kharid aur bechne ke rate ka farq clear rahe.</p>
+        </div>
+        <div className="intent-grid">
+          <a className="intent-card glass" href="/24k-gold-rate/"><span>24K GOLD TODAY</span><strong>{rates?inr(rates.gold999Per10g):'—'}</strong><small>999 purity • per 10g</small><b>24K details <ChevronRight size={15}/></b></a>
+          <a className="intent-card glass" href="/22k-gold-rate/"><span>22K GOLD TODAY</span><strong>{rates?inr(rates.gold916Per10g):'—'}</strong><small>916 purity • per 10g</small><b>22K details <ChevronRight size={15}/></b></a>
+          <a className="intent-card sell-intent glass" href="/gold-selling-price-today/"><span>24K SELLING ESTIMATE</span><strong>{rates?inr(heroSell):'—'}</strong><small>{pct(deduction)} deduction estimate • per 10g</small><b>Selling price details <ChevronRight size={15}/></b></a>
+        </div>
+        <div className="intent-links">
+          <a href="/18k-gold-rate/">18K gold rate today</a><a href="/silver-rate/">Silver rate today</a><a href="/old-gold-calculator/">Purana sona value</a><a href="/gold-calculator/">Gold calculator</a>
+        </div>
       </section>
 
       <section id="rates" className="section-pad content-section">
@@ -191,6 +207,6 @@ export default function App() {
       <section className="section-pad cta-section"><div className="cta-box glass"><div><span className="eyebrow">READY TO CALCULATE?</span><h2>Weight dalo. Value samjho.</h2><p>Free calculator. No login. No hidden formula.</p></div><a className="btn primary" href="#calculator">Open calculator <ArrowRight size={18}/></a></div></section>
     </main>
 
-    <footer className="footer section-pad"><div className="footer-brand"><a className="brand" href="#top"><span className="brand-mark">R</span><span><b>RealRate</b><small>Gold & Silver</small></span></a><p>India ke liye simple gold & silver rate experience.</p></div><div className="footer-links"><div><b>Explore</b><a href="#rates">Rates</a><a href="#calculator">Calculators</a><a href="#learn">How it works</a></div><div><b>Rate pages</b><a href="/24k-gold-rate/">24K Gold</a><a href="/22k-gold-rate/">22K Gold</a><a href="/18k-gold-rate/">18K Gold</a><a href="/silver-rate/">Silver</a></div></div><div className="footer-bottom"><span>© {new Date().getFullYear()} RealRate</span><span>For informational estimates only · Verify final trade price locally.</span></div></footer>
+    <footer className="footer section-pad"><div className="footer-brand"><a className="brand" href="#top"><span className="brand-mark">R</span><span><b>RealRate</b><small>Gold & Silver</small></span></a><p>Aaj ka gold rate, selling price aur jewellery calculations — India ke liye simple aur transparent.</p></div><div className="footer-links"><div><b>Today rates</b><a href="/24k-gold-rate/">24K gold rate today</a><a href="/22k-gold-rate/">22K gold rate today</a><a href="/18k-gold-rate/">18K gold rate today</a><a href="/silver-rate/">Silver rate today</a><a href="/gold-selling-price-today/">Gold selling price today</a></div><div><b>Calculators</b><a href="/gold-calculator/">Gold calculator</a><a href="/jewellery-bill-calculator/">Jewellery bill calculator</a><a href="/old-gold-calculator/">Old gold calculator</a><a href="/gold-purity-calculator/">Gold purity calculator</a></div></div><div className="footer-bottom"><span>© {new Date().getFullYear()} RealRate</span><span>For informational estimates only · Verify final trade price locally.</span></div></footer>
   </div>;
 }

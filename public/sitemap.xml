@@ -9,4 +9,5 @@
 <url><loc>https://realrate-gold.vercel.app/jewellery-bill-calculator/</loc><changefreq>weekly</changefreq><priority>0.8</priority></url>
 <url><loc>https://realrate-gold.vercel.app/old-gold-calculator/</loc><changefreq>weekly</changefreq><priority>0.8</priority></url>
 <url><loc>https://realrate-gold.vercel.app/gold-purity-calculator/</loc><changefreq>weekly</changefreq><priority>0.8</priority></url>
+<url><loc>https://realrate-gold.vercel.app/gold-selling-price-today/</loc><changefreq>daily</changefreq><priority>0.9</priority></url>
 </urlset>
