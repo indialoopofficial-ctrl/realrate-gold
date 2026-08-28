@@ -10,4 +10,10 @@
   <url><loc>https://realrate-gold.vercel.app/jewellery-bill-calculator/</loc><changefreq>weekly</changefreq><priority>0.8</priority></url>
   <url><loc>https://realrate-gold.vercel.app/old-gold-calculator/</loc><changefreq>weekly</changefreq><priority>0.8</priority></url>
   <url><loc>https://realrate-gold.vercel.app/gold-purity-calculator/</loc><changefreq>weekly</changefreq><priority>0.8</priority></url>
+  <url><loc>https://realrate-gold.vercel.app/about/</loc><changefreq>monthly</changefreq><priority>0.6</priority></url>
+  <url><loc>https://realrate-gold.vercel.app/methodology/</loc><changefreq>monthly</changefreq><priority>0.7</priority></url>
+  <url><loc>https://realrate-gold.vercel.app/contact/</loc><changefreq>monthly</changefreq><priority>0.4</priority></url>
+  <url><loc>https://realrate-gold.vercel.app/privacy-policy/</loc><changefreq>yearly</changefreq><priority>0.3</priority></url>
+  <url><loc>https://realrate-gold.vercel.app/terms/</loc><changefreq>yearly</changefreq><priority>0.3</priority></url>
+  <url><loc>https://realrate-gold.vercel.app/disclaimer/</loc><changefreq>yearly</changefreq><priority>0.4</priority></url>
 </urlset>

@@ -33,3 +33,10 @@ Deploy the repository to Vercel. The `api/rates.js` serverless endpoint will wor
 
 ## SEO V4
 Search-intent landing pages, calculator pages with working standalone tools, internal linking, canonical/meta/OpenGraph/Twitter tags, Breadcrumb/WebPage/WebApplication structured data, FAQ content, robots.txt and sitemap.xml are included.
+
+
+## AdSense-readiness (pre-approval)
+- Added About, Contact, Privacy Policy, Terms, Disclaimer and calculation Methodology pages.
+- Privacy Policy includes Google advertising/cookie disclosures for use once AdSense is enabled.
+- Navigation and internal links expose trust/legal pages on the homepage and static SEO pages.
+- No AdSense publisher code or ads.txt is added yet because those require the real publisher ID from the approved/created AdSense account.
